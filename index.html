@@ -338,7 +338,7 @@
                             </picture>
                         </div>
                     </div>
-                    <div class="courses-format__content-item-card">
+                    <div class="courses-format__content-item-card courses-format__content-item-card-icon">
                         <div class="courses-format__content-item-card-title">
                             <span>02</span>
                             <h3>Тебе супродовджують артмайстри Backstage</h3>
@@ -351,7 +351,7 @@
                             </picture>
                         </div>
                     </div>
-                    <div class="courses-format__content-item-card">
+                    <div class="courses-format__content-item-card courses-format__content-item-card-icon2">
                         <div class="courses-format__content-item-card-title">
                             <span>03</span>
                             <h3>Надаємо всі матеріали</h3>
@@ -675,33 +675,34 @@
             </div>
 
             <div class="courses-signup__right">
-                <form action="">
+                <form action="" id="user-form">
                     <div class="user-form__group">
                         <label for="name" class="user-form__label">Як тебе звати?</label>
-                        <input type="text" id="name" name="name" class="user-form__input" placeholder="імʼя">
+                        <input type="text" id="name" name="name" class="user-form__input" placeholder="імʼя"
+                               required pattern="^[a-zA-Zа-яА-ЯіїєІЇЄ\s\-]+$" title="Ім'я повинно містити тільки букви.">
                     </div>
-
+                
                     <div class="user-form__group">
                         <label for="email" class="user-form__label">Яка в тебе пошта?</label>
                         <input type="email" id="email" name="email" class="user-form__input"
-                            placeholder="your@mail.com">
+                               placeholder="your@mail.com" required title="Будь ласка, введіть правильну електронну пошту.">
                     </div>
-
+                
                     <div class="user-form__group">
                         <label for="phone" class="user-form__label">Номер телефону</label>
-                        <input type="tel" id="phone" name="phone" class="user-form__input" placeholder="Твій номер">
+                        <input type="tel" id="phone" name="phone" class="user-form__input" placeholder="Твій номер"
+                               required pattern="^\+?[0-9\s\-\(\)]{10,15}$" title="Будь ласка, введіть правильний номер телефону (від 10 до 15 символів).">
                     </div>
-
+                
                     <div class="user-form__checkbox">
-                        <input type="checkbox" id="consent" name="consent" class="user-form__input-checkbox">
+                        <input type="checkbox" id="consent" name="consent" class="user-form__input-checkbox" required>
                         <label for="consent" class="user-form__label-checkbox">
-                            Я приймаю умови Політики конфіденційності та надаю згоду на обробку своїх персональних
-                            даних.
+                            Я приймаю умови Політики конфіденційності та надаю згоду на обробку своїх персональних даних.
                         </label>
                     </div>
-
+                
                     <button type="submit">залишити заявку</button>
-                </form>
+                </form>                
             </div>
         </div>
     </section>
