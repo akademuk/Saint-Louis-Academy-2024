@@ -64,10 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 var swiper = new Swiper('.courses-reviews__right-slider', {
-  effect: 'fade',             
-  fadeEffect: { 
-    crossFade: true           
-  },
+  slidesPerView: 1,
   loop: true,               
   navigation: {            
     nextEl: '.courses-reviews-next',

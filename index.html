@@ -642,7 +642,8 @@
                         <p>Постав собі просте питання: «Наскільки я готова почати працювати з клієнтами вже сьогодні?»
                             <br>
                             Якщо у тебе є сумніви або прогалини — тобі до нас. Після нашого навчання ти отримаєш повне
-                            занурення в професію, яке надасть тобі 100% впевненість у власних силах.</p>
+                            занурення в професію, яке надасть тобі 100% впевненість у власних силах.
+                        </p>
                     </div>
                 </div>
 
@@ -708,6 +709,21 @@
     <script src="script/jquery-3.7.0.min.js"></script>
     <script src="script/swiper-bundle.min.js"></script>
     <script src="script/script.js"></script>
+
+    <script>
+        $('.courses-format__tab').on('click', function (e) {
+            $('.courses-format__content-item-card').show();
+            $('.courses-format__content-item-card').removeClass('out').addClass('active');
+        });
+
+        $('.courses-format__content-item-card').on('click', function (e) {
+            $(this).removeClass('active').addClass('out');
+
+            setTimeout(function () {
+                $('.courses-format__content-item-card').hide()
+            }, 700);
+        });
+    </script>
 </body>
 
 </html>
