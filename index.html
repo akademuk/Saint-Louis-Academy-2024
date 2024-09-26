@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+    <section class="courses-hero">
+        <div class="wrapper">
+            <div class="courses-hero__title">
+                <h1>
+                    Майстер манікюру <br />
+                    з нуля
+                </h1>
+                <h2>
+                    Навчайтеся в кращих — інтенсивний курс про техніки манікюру та
+                    сервіс
+                </h2>
+            </div>
+
+            <div class="courses-hero__card">
+                <div class="courses-hero__card-item">
+                    <span>старт</span>
+                    <p>30 вересня 2024</p>
+                </div>
+
+                <div class="courses-hero__card-item">
+                    <span>тривалість</span>
+                    <p>6 тижнів</p>
+                </div>
+
+                <div class="courses-hero__card-item">
+                    <span>група</span>
+                    <p>30 місць</p>
+                </div>
+
+                <div class="courses-hero__card-item">
+                    <span>формат навчання</span>
+                    <ul>
+                        <li>теорія — <span>(онлайн)</span></li>
+                        <li>практика — <span>(онлайн/оффлайн)</span></li>
+                    </ul>
+                </div>
+
+                <a href="#" class="courses-hero__card-btn">Почати навчання</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses-fixed">
+        <h2>Початок 30 вересня</h2>
+        <a href="#">Почати навчання</a>
+    </section>
+
+    <section class="courses-for">
+        <div class="wrapper">
+            <div class="courses-for__left">
+                <h2>для кого курс?</h2>
+
+                <div class="courses-for__left-box">
+                    <div class="courses-for__left-box-con">
+                        <span>Якщо ти…</span>
+                        <p>
+                            поки не маєш досвіду, але хочеш опанувати професію майстра
+                            манікюру
+                        </p>
+                    </div>
+
+                    <div class="courses-for__left-box-con">
+                        <span>або</span>
+                        <p>вже щось умієш, але не знаєш, чи дійсно робиш все на рівні</p>
+                    </div>
+                </div>
+            </div>
+            <div class="courses-for__right video-container">
+                <div class="overlay">
+                    <img src="img/video-poster.webp" alt="Poster Image" class="video-poster" />
+                    <button id="playButton" class="play-button">
+                        <img src="img/video-play.svg" alt="" />
+                    </button>
+                    <div class="video-description">
+                        <span>все про курс за 1 хвилину</span>
+                    </div>
+                </div>
+                <video id="myVideo" style="display: none" controls>
+                    <source src="img/hero-video.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses-skills">
+        <div class="wrapper">
+            <div class="courses-skills__left">
+                <h2>
+                    Навички, <br />
+                    які ти опануєш:
+                </h2>
+                <a href="#">Почати навчання</a>
+            </div>
+            <div class="courses-skills__right">
+                <div class="courses-skills__right-card-blue">
+                    <h3>Техніка та майстерність</h3>
+
+                    <ul>
+                        <li>Знання будови нігтя,</li>
+                        <li>5 технік манікюру,</li>
+                        <li>вибір інструментів і матеріалів,</li>
+                        <li>стерилізація,</li>
+                        <li>зняття/покриття звичайним та гель-лаком,</li>
+                        <li>додаткові послуги (спа-догляд, масаж)</li>
+                    </ul>
+                </div>
+                <div class="courses-skills__right-card-white">
+                    <h3>Сервіс та робота з клієнтами</h3>
+
+                    <ul>
+                        <li>Розуміння психології клієнта</li>
+                        <li>робота з проблемними клієнтами,</li>
+                        <li>утримання клієнтів,</li>
+                        <li>сервіс та комунікація,</li>
+                        <li>збільшення середнього чеку</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses-learn">
+        <div class="wrapper">
+            <h2>Що допоможе тобі вчитися:</h2>
+
+            <div class="courses-learn__box">
+                <div class="courses-learn__box-item">
+                    <div class="courses-learn__box-item-img">
+                        <img src="img/courses-learn-icon1.svg" alt="Інтерактивна платформа" />
+                    </div>
+                    <h4>Інтерактивна платформа</h4>
+                </div>
+
+                <div class="courses-learn__box-item">
+                    <div class="courses-learn__box-item-img">
+                        <img src="img/courses-learn-icon2.svg" alt="Відеоуроки" />
+                    </div>
+                    <h4>Відеоуроки</h4>
+                </div>
+
+                <div class="courses-learn__box-item">
+                    <div class="courses-learn__box-item-img">
+                        <img src="img/courses-learn-icon3.svg" alt="PDF-конспекти уроків" />
+                    </div>
+                    <h4>PDF-конспекти уроків</h4>
+                </div>
+
+                <div class="courses-learn__box-item">
+                    <div class="courses-learn__box-item-img">
+                        <img src="img/courses-learn-icon4.svg" alt="Тести для відпрацювання навичок" />
+                    </div>
+                    <h4>Тести для відпрацювання навичок</h4>
+                </div>
+
+                <div class="courses-learn__box-item">
+                    <div class="courses-learn__box-item-img">
+                        <img src="img/courses-learn-icon5.svg" alt="Груповий чат з підтримкою" />
+                    </div>
+                    <h4>Груповий чат з підтримкою</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses-program">
+        <div class="wrapper">
+            <div class="courses-program__left">
+                <h2 class="courses-program__title">ПРОГРАМА КУРСУ</h2>
+
+                <div class="courses-program__module">
+                    <div class="courses-program__header" data-module="1">
+                        <span class="courses-program__icon">
+                            <img src="img/courses-program-icon.svg" alt="icon">
+                        </span>
+                        <span class="courses-program__module-title">МОДУЛЬ 1. вхід у професію</span>
+                    </div>
+                    <div class="courses-program__content" data-content="1">
+                        <ul class="courses-program__lessons">
+                            <li>Урок 9. Різні форми нігтьової пластини, підбір оптимальної довжини і форми вільного
+                                краю: квадрат, м'який квадрат, овал, мигдаль, стилет.</li>
+                            <li>Урок 10. Європейський безобрізний манікюр.</li>
+                            <li>Урок 11. Класичний обрізний манікюр.</li>
+                            <li>Урок 12. Апаратний манікюр.</li>
+                            <li>Урок 13. Види комбінованого манікюру.</li>
+                            <li>Урок 14. Чоловічий і дитячий манікюр.</li>
+                            <li>Урок 9. Різні форми нігтьової пластини, підбір оптимальної довжини і форми вільного
+                                краю: квадрат, м'який квадрат, овал, мигдаль, стилет.</li>
+                            <li>Урок 10. Європейський безобрізний манікюр.</li>
+                            <li>Урок 11. Класичний обрізний манікюр.</li>
+                            <li>Урок 12. Апаратний манікюр.</li>
+                            <li>Урок 13. Види комбінованого манікюру.</li>
+                            <li>Урок 14. Чоловічий і дитячий манікюр.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="courses-program__module courses-program__module--active">
+                    <div class="courses-program__header" data-module="2">
+                        <span class="courses-program__icon">
+                            <img src="img/courses-program-icon.svg" alt="icon">
+                        </span>
+                        <span class="courses-program__module-title">МОДУЛЬ 2. актуальні техніки</span>
+                    </div>
+                    <div class="courses-program__content" data-content="2">
+                        <ul class="courses-program__lessons">
+                            <li>Урок 9. Різні форми нігтьової пластини, підбір оптимальної довжини і форми вільного
+                                краю: квадрат, м'який квадрат, овал, мигдаль, стилет.</li>
+                            <li>Урок 10. Європейський безобрізний манікюр.</li>
+                            <li>Урок 11. Класичний обрізний манікюр.</li>
+                            <li>Урок 12. Апаратний манікюр.</li>
+                            <li>Урок 13. Види комбінованого манікюру.</li>
+                            <li>Урок 14. Чоловічий і дитячий манікюр.</li>
+                            <li>Урок 9. Різні форми нігтьової пластини, підбір оптимальної довжини і форми вільного
+                                краю: квадрат, м'який квадрат, овал, мигдаль, стилет.</li>
+                            <li>Урок 10. Європейський безобрізний манікюр.</li>
+                            <li>Урок 11. Класичний обрізний манікюр.</li>
+                            <li>Урок 12. Апаратний манікюр.</li>
+                            <li>Урок 13. Види комбінованого манікюру.</li>
+                            <li>Урок 14. Чоловічий і дитячий манікюр.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="courses-program__module">
+                    <div class="courses-program__header" data-module="3">
+                        <span class="courses-program__icon">
+                            <img src="img/courses-program-icon.svg" alt="icon">
+                        </span>
+                        <span class="courses-program__module-title">МОДУЛЬ 3. покриття</span>
+                    </div>
+                    <div class="courses-program__content" data-content="3">
+                        <ul class="courses-program__lessons">
+                            <li>Урок 9. Різні форми нігтьової пластини, підбір оптимальної довжини і форми вільного
+                                краю: квадрат, м'який квадрат, овал, мигдаль, стилет.</li>
+                            <li>Урок 10. Європейський безобрізний манікюр.</li>
+                            <li>Урок 11. Класичний обрізний манікюр.</li>
+                            <li>Урок 12. Апаратний манікюр.</li>
+                            <li>Урок 13. Види комбінованого манікюру.</li>
+                            <li>Урок 14. Чоловічий і дитячий манікюр.</li>
+                            <li>Урок 9. Різні форми нігтьової пластини, підбір оптимальної довжини і форми вільного
+                                краю: квадрат, м'який квадрат, овал, мигдаль, стилет.</li>
+                            <li>Урок 10. Європейський безобрізний манікюр.</li>
+                            <li>Урок 11. Класичний обрізний манікюр.</li>
+                            <li>Урок 12. Апаратний манікюр.</li>
+                            <li>Урок 13. Види комбінованого манікюру.</li>
+                            <li>Урок 14. Чоловічий і дитячий манікюр.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <a href="#" class="courses-program__left-btn">Почати навчання</a>
+            </div>
+
+            <div class="courses-program__right">
+                <div class="courses-program__right-gif">
+                    <img src="img/courses-program-gif.gif" alt="gif">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses-format">
+        <div class="wrapper">
+            <div class="courses-format__header">
+                <h2>головне на курсі — практика. обери свій формат: онлайн чи офлайн</h2>
+                <div class="courses-format__tabs">
+                    <div class="courses-format__tabs1">
+                        <button class="courses-format__tab" data-tab="offline">Оффлайн</button>
+                        <button class="courses-format__tab active" data-tab="online">Онлайн</button>
+                    </div>
+                    <div class="courses-format__tabs2">
+                        <button class="courses-format__arrow prev">
+                            <img src="img/format-arrow-prev.svg" alt="prev">
+                        </button>
+                        <button class="courses-format__arrow next">
+                            <img src="img/format-arrow-next.svg" alt="next">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="courses-format__content">
+                <div class="courses-format__content-item active" id="online">
+                    <div class="courses-format__content-item-card">
+                        <div class="courses-format__content-item-card-title">
+                            <span>01</span>
+                            <h3>Онлайн-зустріч та розбір робіт із куратором</h3>
+                        </div>
+                        <div class="courses-format__content-item-card-img">
+                            <picture>
+                                <source srcset="img/format-img1.webp" type="image/webp">
+                                <source srcset="img/format-img1.jpg" type="image/jpeg">
+                                <img src="img/format-img1.jpg" alt="image" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="courses-format__content-item-card">
+                        <div class="courses-format__content-item-card-title">
+                            <span>02</span>
+                            <h3>Тебе супроводжує артмайстер Backstage</h3>
+                        </div>
+                        <div class="courses-format__content-item-card-img">
+                            <picture>
+                                <source srcset="img/format-img2.webp" type="image/webp">
+                                <source srcset="img/format-img2.jpg" type="image/jpeg">
+                                <img src="img/format-img2.jpg" alt="image" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-format__content-item" id="offline">
+                    <div class="courses-format__content-item-card">
+                        <div class="courses-format__content-item-card-title">
+                            <span>01</span>
+                            <h3>Онлайн-зустріч та розбір робіт із куратором</h3>
+                        </div>
+                        <div class="courses-format__content-item-card-img">
+                            <picture>
+                                <source srcset="img/format-img1.webp" type="image/webp">
+                                <source srcset="img/format-img1.jpg" type="image/jpeg">
+                                <img src="img/format-img1.jpg" alt="image" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="courses-format__content-item-card">
+                        <div class="courses-format__content-item-card-title">
+                            <span>02</span>
+                            <h3>Тебе супродовджують артмайстри Backstage</h3>
+                        </div>
+                        <div class="courses-format__content-item-card-img">
+                            <picture>
+                                <source srcset="img/format-img2.webp" type="image/webp">
+                                <source srcset="img/format-img2.jpg" type="image/jpeg">
+                                <img src="img/format-img2.jpg" alt="image" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="courses-format__content-item-card">
+                        <div class="courses-format__content-item-card-title">
+                            <span>03</span>
+                            <h3>Надаємо всі матеріали</h3>
+                        </div>
+                        <div class="courses-format__content-item-card-img">
+                            <picture>
+                                <source srcset="img/format-img3.webp" type="image/webp">
+                                <source srcset="img/format-img3.jpg" type="image/jpeg">
+                                <img src="img/format-img3.jpg" alt="image" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="courses-format__content-item-card">
+                        <div class="courses-format__content-item-card-title">
+                            <span>04</span>
+                            <h3>Допомагаємо з пошуком моделі</h3>
+                        </div>
+                        <div class="courses-format__content-item-card-img">
+                            <picture>
+                                <source srcset="img/format-img4.webp" type="image/webp">
+                                <source srcset="img/format-img4.jpg" type="image/jpeg">
+                                <img src="img/format-img4.jpg" alt="image" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="courses-format__link">Записатися</a>
+        </div>
+    </section>
+
+    <section class="courses-price">
+        <div class="wrapper">
+            <div class="courses-price-white">
+                <h2>«КУРС МАНІКЮРУ
+                    ОНЛАЙН»</h2>
+
+                <ul>
+                    <li>21 урок / 3 модуля</li>
+                    <li>груповий чат потоку </li>
+                    <li>двомовний сертифікат підтвердження </li>
+                    <li>теоретична частина онлайн на зручній навчальній платформі </li>
+                    <li>розбір відео робіт </li>
+                    <li>супровід арт-майстра Backstage</li>
+                    <li class="courses-price-white-item">практичне відпрацювання офлайн в салоні Backstage у Києві</li>
+                    <li class="courses-price-white-item">надаємо матеріали для практичних занять</li>
+                    <li class="courses-price-white-item">допомагаємо з пошуками моделі для практичних занять</li>
+                    <li class="courses-price-white-item">можливість майбутнього працевлаштування в мережі салонів
+                        Backstage</li>
+                </ul>
+
+                <a href="#">залишити заявку</a>
+            </div>
+            <div class="courses-price-blue">
+                <div class="courses-price-blue-title">
+                    <h2>«КУРС МАНІКЮРУ ОНЛАЙН + ОФЛАЙН»</h2>
+                    <span>обирають 78%</span>
+                </div>
+
+                <ul>
+                    <li>21 урок / 3 модуля</li>
+                    <li>груповий чат потоку</li>
+                    <li>двомовний сертифікат підтвердження </li>
+                    <li>теоретична частина онлайн на зручній навчальній платформі </li>
+                    <li>розбір відео робіт </li>
+                    <li>супровід арт-майстра Backstage</li>
+                    <li>практичне відпрацювання офлайн в салоні “Backstage” у Києві </li>
+                    <li>надаємо матеріали для практичних занять </li>
+                    <li>допомагаємо з пошуками моделі для практичних занять </li>
+                    <li>можливість майбутнього працевлаштування в мережі ТОП салонів “Backstage”</li>
+                </ul>
+
+                <a href="#">залишити заявку</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses-certificate">
+        <div class="wrapper">
+            <div class="courses-certificate__left">
+                <h2>Отримай двомовний сертифікат,
+                    з яким можна знайти роботу навіть закордоном.</h2>
+
+                <a href="#">Почати навчання</a>
+            </div>
+            <div class="courses-certificate__right">
+                <picture>
+                    <source srcset="img/courses-certificate.webp" type="image/webp">
+                    <source srcset="img/courses-certificate.jpg" type="image/jpeg">
+                    <img src="img/courses-certificate.jpg" alt="image" loading="lazy">
+                </picture>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses-banner">
+        <div class="wrapper">
+            <div class="courses-banner-title">
+                <h2>Курс створили <br>спільно <br> з найбільшою  <br>мережею BACKSTAGE. </h2>
+                <ul>
+                    <li>80 000 клієнтів. </li>
+                    <li>400 майстрів. </li>
+                    <li>15 років на ринку</li>
+                </ul>
+            </div>
+
+            <div class="courses-banner-img">
+                <img src="img/backstage.svg" alt="logo">
+            </div>
+        </div>
+    </section>
+
+    <section class="courses-teacher">
+        <div class="wrapper">
+            <div class="courses-teacher__header">
+                <h2>Хто тебе навчатиме</h2>
+            </div>
+            <div class="courses-teacher__main">
+                <div class="courses-teacher__main-card">
+                    <div class="courses-teacher__main-img">
+                        <picture>
+                            <source srcset="img/courses-teacher-img1.webp" type="image/webp">
+                            <source srcset="img/courses-teacher-img1.jpg" type="image/jpeg">
+                            <img src="img/courses-teacher-img1.jpg" alt="image" loading="lazy">
+                        </picture>
+                        <p>Анна Подрязька</p>
+                    </div>
+                    <div class="courses-teacher__main-content">
+                        <h3>МЕНТОРКА ТЕОРІЇ</h3>
+
+                        <ul>
+                            <li>чемпіонка Європи</li>
+                            <li>6 років досвіду</li>
+                            <li>10 майстер-класів щорічно</li>
+                            <li>3000+ виконаних манікюрів</li>
+                            <li>5000+ задоволених клієнтів</li>
+                            <li>100+ навчених майстрів</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="courses-teacher__main-card">
+                    <div class="courses-teacher__main-img">
+                        <picture>
+                            <source srcset="img/courses-teacher-img2.webp" type="image/webp">
+                            <source srcset="img/courses-teacher-img2.jpg" type="image/jpeg">
+                            <img src="img/courses-teacher-img2.jpg" alt="image" loading="lazy">
+                        </picture>
+                        <p>ЮЛІЯ ПЕЧОРІНА</p>
+                    </div>
+                    <div class="courses-teacher__main-content">
+                        <h3>МЕНТОРКА ПРАКТИКИ</h3>
+
+                        <ul>
+                            <li>9 років досвіду</li>
+                            <li>6000+ ідеальних френчів</li>
+                            <li>127 унікальних нейл-дизайнів</li>
+                            <li>19 000+ манікюрів</li>
+                            <li>100+ навчених нейл-майстрів</li>
+                            <li>14 000 задоволених клієнтів</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="courses-earnings">
+        <picture>
+            <source srcset="img/earnings.webp" type="image/webp">
+            <source srcset="img/earnings.jpg" type="image/jpeg">
+            <img src="img/earnings.jpg" alt="image" loading="lazy">
+        </picture>
+    </div>
+
+    <section class="courses-reviews">
+        <div class="wrapper">
+            <div class="courses-reviews__left">
+                <picture>
+                    <source srcset="img/reviews-img.webp" type="image/webp">
+                    <source srcset="img/reviews-img.jpg" type="image/jpeg">
+                    <img src="img/reviews-img.jpg" alt="image" loading="lazy">
+                </picture>
+            </div>
+
+            <div class="courses-reviews__right">
+                <h2>85% наших студентів <br>
+                    і студенток влаштову-ються майстрами манікюру. </h2>
+
+                <p>І от, що вони говорять про курс:</p>
+
+                <div class="courses-reviews__right-box">
+                    <div class="courses-reviews__right-slider swiper-container">
+                        <div class="courses-reviews__slider-wrapper swiper-wrapper">
+                            <div class="courses-reviews__slide swiper-slide">
+                                <div class="courses-reviews__slide-box">
+                                    <div class="courses-reviews__slide-box-header">
+                                        <p>Наталя Зайцева</p>
+                                        <span>30 теоретичних і 5 практичних годин</span>
+                                        <span>Закінчила з балом: 100</span>
+                                    </div>
+                                    <div class="courses-reviews__slide-box-main">
+                                        <img src="img/reviews-icon.svg" alt="icon">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="courses-reviews__slide swiper-slide">
+                                <div class="courses-reviews__slide-box">
+                                    <div class="courses-reviews__slide-box-header">
+                                        <p>Наталя Зайцева 1</p>
+                                        <span>30 теоретичних і 5 практичних годин</span>
+                                        <span>Закінчила з балом: 100</span>
+                                    </div>
+                                    <div class="courses-reviews__slide-box-main">
+                                        <img src="img/reviews-icon.svg" alt="icon">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="courses-reviews__slide swiper-slide">
+                                <div class="courses-reviews__slide-box">
+                                    <div class="courses-reviews__slide-box-header">
+                                        <p>Наталя Зайцева 2</p>
+                                        <span>30 теоретичних і 5 практичних годин</span>
+                                        <span>Закінчила з балом: 100</span>
+                                    </div>
+                                    <div class="courses-reviews__slide-box-main">
+                                        <img src="img/reviews-icon.svg" alt="icon">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="courses-reviews__slide swiper-slide">
+                                <div class="courses-reviews__slide-box">
+                                    <div class="courses-reviews__slide-box-header">
+                                        <p>Наталя Зайцева 3</p>
+                                        <span>30 теоретичних і 5 практичних годин</span>
+                                        <span>Закінчила з балом: 100</span>
+                                    </div>
+                                    <div class="courses-reviews__slide-box-main">
+                                        <img src="img/reviews-icon.svg" alt="icon">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="courses-reviews__right-nav">
+                        <div class="courses-reviews-prev swiper-button-prev">
+                            <img src="img/format-arrow-prev.svg" alt="prev">
+                        </div>
+                        <div class="courses-reviews-next swiper-button-next">
+                            <img src="img/format-arrow-next.svg" alt="next">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses-faq">
+        <div class="wrapper">
+            <div class="courses-faq-title">
+                <h2>У тебе є питання?</h2>
+                <h2>У нас є відповіді</h2>
+            </div>
+            <div class="courses-faq-main">
+                <div class="courses-faq-main__item">
+                    <div class="courses-faq-main__question">Чим ваш курс краще ніж 2-3 денні навчання?</div>
+                    <div class="courses-faq-main__answer">
+                        <p>Постав собі просте питання: «Наскільки я готова почати працювати з клієнтами вже сьогодні?»
+                            Якщо у тебе є сумніви або прогалини — тобі до нас. Після нашого навчання ти отримаєш повне
+                            занурення в професію, яке надасть тобі 100% впевненість у власних силах.</p>
+                    </div>
+                </div>
+
+                <div class="courses-faq-main__item active">
+                    <div class="courses-faq-main__question">Я вже навчалась на курсах у майстрині</div>
+                    <div class="courses-faq-main__answer">
+                        <p>Постав собі просте питання: «Наскільки я готова почати працювати з клієнтами вже сьогодні?»
+                            <br>
+                            Якщо у тебе є сумніви або прогалини — тобі до нас. Після нашого навчання ти отримаєш повне
+                            занурення в професію, яке надасть тобі 100% впевненість у власних силах.</p>
+                    </div>
+                </div>
+
+                <div class="courses-faq-main__item">
+                    <div class="courses-faq-main__question">Онлайн це важко, я не зрозумію</div>
+                    <div class="courses-faq-main__answer">
+                        <p>Постав собі просте питання: «Наскільки я готова почати працювати з клієнтами вже сьогодні?»
+                            Якщо у тебе є сумніви або прогалини — тобі до нас. Після нашого навчання ти отримаєш повне
+                            занурення в професію, яке надасть тобі 100% впевненість у власних силах.</p>
+                    </div>
+                </div>
+
+                <a href="#" class="courses-faq-main-link">залишити заявку</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses-signup">
+        <div class="wrapper">
+            <div class="courses-signup__left">
+                <h2>Хочеш стати профі? 
+                    Реєструйся
+                    та зустрінемося
+                    на курсі!</h2>
+
+                <p>А якщо потрібно щось уточнити — не вагайся та пиши нам.</p>
+
+                <img src="img/courses-signup-img.svg" alt="image">
+            </div>
+
+            <div class="courses-signup__right">
+                <form action="">
+                    <div class="user-form__group">
+                        <label for="name" class="user-form__label">Як тебе звати?</label>
+                        <input type="text" id="name" name="name" class="user-form__input" placeholder="імʼя">
+                    </div>
+
+                    <div class="user-form__group">
+                        <label for="email" class="user-form__label">Яка в тебе пошта?</label>
+                        <input type="email" id="email" name="email" class="user-form__input"
+                            placeholder="your@mail.com">
+                    </div>
+
+                    <div class="user-form__group">
+                        <label for="phone" class="user-form__label">Номер телефону</label>
+                        <input type="tel" id="phone" name="phone" class="user-form__input" placeholder="Твій номер">
+                    </div>
+
+                    <div class="user-form__checkbox">
+                        <input type="checkbox" id="consent" name="consent" class="user-form__input-checkbox">
+                        <label for="consent" class="user-form__label-checkbox">
+                            Я приймаю умови Політики конфіденційності та надаю згоду на обробку своїх персональних
+                            даних.
+                        </label>
+                    </div>
+
+                    <button type="submit">залишити заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script/jquery-3.7.0.min.js"></script>
+    <script src="script/swiper-bundle.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
